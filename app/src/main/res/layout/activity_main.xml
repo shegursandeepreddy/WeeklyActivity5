@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/time_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter time in seconds"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_below="@id/time_input"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_below="@id/countdown"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/increment_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+1 seconds"
+            android:layout_below="@id/start_button"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/increment_button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+10 seconds"
+            android:layout_below="@id/start_button"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/increment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+5 seconds"
+            android:layout_below="@id/start_button"
+            android:layout_centerHorizontal="true"/>
+
+
+</LinearLayout>
